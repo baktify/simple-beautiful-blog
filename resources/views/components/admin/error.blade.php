@@ -1,0 +1,1 @@
+<span class="block text-red-400 text-sm mt-1 -mb-2 px-1">{{$slot}}</span>
