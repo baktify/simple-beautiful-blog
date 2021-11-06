@@ -2,11 +2,10 @@
 
 use App\Http\Controllers\Admin\ArticleController;
 use App\Http\Controllers\Admin\CategoryController;
+use App\Http\Controllers\Admin\CommentController;
 use App\Http\Controllers\Admin\MainController;
 use App\Http\Controllers\Admin\TagController;
-use App\Http\Controllers\Admin\CommentController;
 use App\Http\Controllers\HomeController;
-use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 require __DIR__ . '/auth.php';
@@ -30,9 +29,4 @@ Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function () {
         'tags' => TagController::class,
     ]);
     Route::resource('comments', CommentController::class)->only(['index', 'destroy']);
-});
-
-
-Route::get('test', function () {
-    dd(Auth::user()->is_admin);
 });

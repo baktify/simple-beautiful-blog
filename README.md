@@ -1,12 +1,16 @@
 ## About Simple awesome blog
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+This awesome blog website is dedicated to create a simple posts with tags and category and functionality to write
+comments. Backend is written in [Laravel version 8.0](http://laravel.com) and supports php version above 7.4.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Website design and layout was created from scratch by myself using [TailwindCSS](https://tailwindcss.com). Project has a
+login mechanism which is performed by Laravel Breeze. There is an admin panel to manage with posts, tags, categories,
+comments which is available only for admins.
 
+After installing project to your machine you may not see any data in website. For better testing experience I created
+factories and seeders. To create posts, categories, tags just run command "php artisan migrate:fresh --seed" and your
+website will be filled with beautiful datas. Now, you can login in using email - "admin@admin.com" and password - "
+password" to get access to admin panel. After loggin in open directory /admin and you are in admin panel.
+
+The website structuring wasn't created according to "modern architecture patterns". For the small project like this, I
+thought it is not necessary. See also my other projects, maybe there you can see some project patterns.
