@@ -1,7 +1,7 @@
 ## About Simple awesome blog
 
 This awesome blog website is dedicated to create a simple posts with tags and category and functionality to write
-comments. Backend is written in [Laravel version 8.0](http://laravel.com) and supports php version above 7.4.
+comments. Backend is written in [Laravel version 8.0](https://laravel.com/docs/8.x) and supports php version above 7.4.
 
 Website design and layout was created from scratch by myself using [TailwindCSS](https://tailwindcss.com). Project has a
 login mechanism which is performed by Laravel Breeze. There is an admin panel to manage with posts, tags, categories,
