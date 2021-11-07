@@ -8,7 +8,8 @@ login mechanism which is performed by Laravel Breeze. There is an admin panel to
 comments which is available only for admins.
 
 After installing project to your machine you may not see any data in website. For better testing experience I created
-factories and seeders. To create posts, categories, tags just run command
+factories and seeders. First, you should connect project to the database. To do so, write database name, username, password in ".env" file. 
+After it, to create posts, categories, tags just run command that will migrate database and create data.
 
     "php artisan migrate:fresh --seed" 
 
