@@ -26,7 +26,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function () {
     Route::resources([
         'articles' => ArticleController::class,
         'categories' => CategoryController::class,
-        'tags' => TagController::class,
+        'tags' => TagController::class
     ]);
     Route::resource('comments', CommentController::class)->only(['index', 'destroy']);
 });
