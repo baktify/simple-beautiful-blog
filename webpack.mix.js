@@ -18,4 +18,4 @@ mix.js('resources/js/app.js', 'public/js')
     require('autoprefixer'),
 ]);
 
-// mix.browserSync('http://simpleBlog');
+mix.browserSync('http://simpleBlog');

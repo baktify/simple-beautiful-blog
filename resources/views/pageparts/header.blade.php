@@ -1,4 +1,4 @@
-<header class="absolute top-0 inset-x-0 bg-darkBlue-2 py-5 shadow-sm">
+<header class="absolute top-0 inset-x-0 bg-darkBlue-2 py-5 px-3 shadow-sm">
   <div class="container mx-auto max-w-7xl text-gray-50">
     <div class="flex items-center">
       <!-- Logo -->

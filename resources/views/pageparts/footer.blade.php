@@ -5,9 +5,9 @@
     </div>
   </div> -->
   <!-- Copyright -->
-  <div class="bg-darkBlue-2 py-5 text-gray-400">
+  <div class="bg-darkBlue-2 py-5 px-3 text-gray-400">
     <div class="container mx-auto max-w-7xl text-sm">
-      Copyright © 2021 Bako Blogs. All Rights Reserved.
+      Copyright © 2022 Bako Blogs. All Rights Reserved.
     </div>
   </div>
 </footer>

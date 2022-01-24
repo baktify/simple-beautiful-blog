@@ -1,4 +1,4 @@
-<nav class="absolute top-20 inset-x-0 py-5 bg-gray-100 shadow-md border-b border-gray-300">
+<nav class="absolute top-20 inset-x-0 py-5 px-3 md:px-0 bg-gray-100 shadow-md border-b border-gray-300">
   <div class="container mx-auto max-w-7xl flex">
     <!-- Links -->
     <div class="flex space-x-10 mr-auto sm:pl-6">
