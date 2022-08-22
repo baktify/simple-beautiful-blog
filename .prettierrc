@@ -1,0 +1,15 @@
+{
+    "overrides": [
+        {
+            "files": [
+                "resources/views/*/**.blade.php",
+                "resources/**/*.blade.php",
+                "resources/views/*.blade.php"
+            ],
+            "options": {
+                "tabWidth": 4,
+                "parser": "blade"
+            }
+        }
+    ]
+}

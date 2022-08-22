@@ -17,11 +17,13 @@ indent_size = 2
 [docker-compose.yml]
 indent_size = 4
 
-# [*.php]
-# indent_style = space
-# indent_size = 4
-# 
-# [*.blade.php]
-# indent_style = space
-# indent_size = 2
-# 
+[*.*rc]
+indent_size = 2
+
+[*.php]
+indent_style = space
+indent_size = 4
+
+[*.blade.php]
+indent_style = space
+indent_size = 2
